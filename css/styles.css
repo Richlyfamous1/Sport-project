@@ -1,0 +1,41 @@
+@import url('../bootstrap/css/bootstrap.min.css');
+ * {
+     font-size: 10px;
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+body { 
+    font-family: sans-serif;
+    background-color: #dfdfd5;
+}
+
+header{
+    width: 90%;
+    margin: 20px auto;
+}
+.logo {
+    float: left;
+    height: 13rem;
+    width: 13rem;
+    margin: 0.4rem; 
+}
+.nav {
+    float: right;
+    margin: 4rem;
+}
+.nav ul{
+    display: block;
+    list-style: none;
+    display: flex;
+}
+.nav ul li {
+    display: inline;
+    padding: 2rem;
+}
+.nav a{
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.2rem;
+}
